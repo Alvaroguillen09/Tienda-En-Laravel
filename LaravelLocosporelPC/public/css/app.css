@@ -1,0 +1,66 @@
+.bg-secondary {
+  background-color: #231f66 !important;
+}
+
+.copyright {
+  background-color: #231f66;
+}
+
+.bg-primary {
+  background-color: #e6810f !important;
+}
+
+nav {
+  font-weight: 700;
+}
+
+.img-card {
+  height: 18vw;
+  object-fit: cover;
+}
+.card2 {
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+  transition: transform 0.2s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.card2:hover {
+  transform: scale(1.1);
+}
+.btn2 {
+  background-color: rgb(93, 30, 210);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+#contenedor_principal {
+  width: 1024px;
+  height: auto;
+  position: relative;
+  margin: auto;
+}
+.contenedor_imagen_texto {
+  width: 335px;
+  height: auto;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+}
+.imagen,
+.texto {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: inline;
+}
+.texto {
+  height: auto;
+  text-align: center;
+}
